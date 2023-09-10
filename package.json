@@ -1,0 +1,15 @@
+{
+  "name": "root",
+  "private": true,
+  "scripts": {
+    "dev": "npx lerna run dev --concurrency=5",
+    "start": "npx lerna run start --concurrency=5",
+    "build": "npx lerna run build",
+    "test": "npx lerna run test"
+
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "lerna": "^7.2.0"
+  }
+}
